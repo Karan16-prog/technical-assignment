@@ -42,7 +42,8 @@ return(
         variant="outlined"
         rows={MyDataGrid(rows,query)}
         columns={columns}
-        pageSize={3}
+        columnWidth={45}
+        pageSize={5}
         rowsPerPageOptions={[5]}
         disableSelectionOnClick
         style={{ width:'100%' }}

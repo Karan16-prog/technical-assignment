@@ -4,6 +4,8 @@ import { CardContent } from '@mui/material';
 import {useState} from 'react';
 //import BasicTable from './Table.js';
 import DataGridDemo from './dataGrid.js';
+
+
 const initialFormData = ({
   FirstName: "",
   LastName: "",
@@ -27,7 +29,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(formData);
-    const values = (formData);
+    
     setShowData(true);
     // ... submit to API or something
   }
